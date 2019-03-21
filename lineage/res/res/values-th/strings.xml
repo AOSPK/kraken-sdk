@@ -17,7 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageos_system_label">ระบบ LineageOS</string>
+    <string name="lineageos_system_label">ระบบ Kraken</string>
     <string name="permlab_modifyProfiles">ปรับแต่งโปรไฟล์ระบบ</string>
     <string name="permdesc_modifyProfiles">อนุญาตให้แอปปรับแต่งโปรไฟล์ระบบ</string>
     <string name="permlab_useHardwareFramework">ใช้ฮาร์ดแวร์เฟรมเวิร์ค</string>

@@ -17,7 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageos_system_label">Sistema LineageOS</string>
+    <string name="lineageos_system_label">Sistema Kraken</string>
     <string name="permlab_modifyProfiles">modificar os perfis de sistema</string>
     <string name="permdesc_modifyProfiles">Permite que um aplicativo modifique os perfis de sistema.</string>
     <string name="permlab_useHardwareFramework">usar o framework do hardware</string>
@@ -97,7 +97,7 @@
     <string name="build_date">Data de compilação</string>
     <string name="lineage_api_level">Nível de API do sistema</string>
     <string name="lineage_updates">Atualizações do sistema</string>
-    <string name="lineage_version">Versão do sistema</string>
+    <string name="lineage_version">Versão Kraken</string>
     <string name="lineage_vendor_security_patch">Nível da atualização de segurança do fabricante</string>
     <string name="unknown">Desconhecido</string>
     <string name="app_killed_message">Aplicativo encerrado</string>
