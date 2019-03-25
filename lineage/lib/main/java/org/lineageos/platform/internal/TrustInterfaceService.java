@@ -97,8 +97,6 @@ public class TrustInterfaceService extends LineageSystemService {
 
         // Onboard
         if (!hasOnboardedUser()) {
-            postOnBoardingNotification();
-            return;
         }
 
         runTestInternal();
