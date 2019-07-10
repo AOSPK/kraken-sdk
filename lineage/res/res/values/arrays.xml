@@ -126,6 +126,7 @@
         <item>org.lineageos.overlay.accent.green</item>
         <item>org.lineageos.overlay.accent.orange</item>
         <item>org.lineageos.overlay.accent.yellow</item>
+        <item>org.lineageos.overlay.accent.teal</item>
         <item>org.lineageos.overlay.accent.brown</item>
         <item>org.lineageos.overlay.accent.black</item>
     </string-array>
