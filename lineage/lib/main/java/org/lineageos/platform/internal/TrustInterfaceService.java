@@ -99,7 +99,6 @@ public class TrustInterfaceService extends LineageSystemService {
 
             // Onboard
             if (!hasOnboardedUser()) {
-                postOnBoardingNotification();
                 registerLocaleChangedReceiver();
                 return;
             }
@@ -201,12 +200,10 @@ public class TrustInterfaceService extends LineageSystemService {
     private void runTestInternal() {
         int selinuxStatus = getSELinuxStatus();
         if (selinuxStatus != TrustInterface.TRUST_FEATURE_LEVEL_GOOD) {
-            postNotificationForFeatureInternal(TrustInterface.TRUST_WARN_SELINUX);
         }
 
         int keysStatus = getKeysStatus();
         if (keysStatus != TrustInterface.TRUST_FEATURE_LEVEL_GOOD) {
-            postNotificationForFeatureInternal(TrustInterface.TRUST_WARN_PUBLIC_KEY);
         }
     }
 
@@ -348,7 +345,6 @@ public class TrustInterfaceService extends LineageSystemService {
             if (intent.getAction() == Intent.ACTION_LOCALE_CHANGED) {
                 if (!hasOnboardedUser()) {
                     // When are not onboarded, we want to change the language of the notification
-                    postOnBoardingNotification();
                 } else {
                     // We don't care anymore about language changes
                     context.unregisterReceiver(this);
