@@ -22,7 +22,7 @@ import android.content.Context;
 /**
  * Created by adnan on 2/4/16.
  */
-public class LineageOSTestApplication extends Application {
+public class KrakenTestApplication extends Application {
     private static Context sApplicationContext;
 
     @Override

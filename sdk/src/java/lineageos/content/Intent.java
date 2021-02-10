@@ -20,7 +20,7 @@ package lineageos.content;
 import android.Manifest;
 
 /**
- * LineageOS specific intent definition class.
+ * Kraken specific intent definition class.
  */
 public class Intent {
 

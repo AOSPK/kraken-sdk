@@ -21,7 +21,7 @@ import android.text.TextUtils;
 import android.util.SparseArray;
 
 /**
- * Information about the current LineageOS build, extracted from system properties.
+ * Information about the current Kraken build, extracted from system properties.
  */
 public class Build {
     /** Value used for when a build property is unknown. */
@@ -165,13 +165,13 @@ public class Build {
         public static final int GUAVA = 7;
 
         /**
-         * February 2018: Unreleased preliminary version starting from LineageOS 15.1
+         * February 2018: Unreleased preliminary version starting from Kraken 15.1
          * <p>Unused APIs have been removed.</p>
          */
         public static final int HACKBERRY = 8;
 
         /**
-         * March 2018: The 1st iteration of the platform sdk for LineageOS
+         * March 2018: The 1st iteration of the platform sdk for Kraken
          * <p>Applications targeting this or a later version will get access to these
          * new features!</p>
          * <ul>

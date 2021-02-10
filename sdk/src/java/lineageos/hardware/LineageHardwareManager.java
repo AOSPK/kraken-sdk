@@ -53,7 +53,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 /**
- * Manages access to LineageOS hardware extensions
+ * Manages access to Kraken hardware extensions
  *
  *  <p>
  *  This manager requires the HARDWARE_ABSTRACTION_ACCESS permission.

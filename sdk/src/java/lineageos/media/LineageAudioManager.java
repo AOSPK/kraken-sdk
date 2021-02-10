@@ -29,7 +29,7 @@ import lineageos.app.LineageContextConstants;
 
 /**
  * Manager for extended audio system capabilities provided by
- * LineageOS.
+ * Kraken.
  *
  * Currently, this API provides an application the ability to
  * query active global audio sessions, and receive broadcasts

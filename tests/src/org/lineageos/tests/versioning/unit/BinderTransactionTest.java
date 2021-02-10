@@ -22,7 +22,7 @@ import android.test.suitebuilder.annotation.LargeTest;
 import android.util.Log;
 import android.util.Pair;
 
-import org.lineageos.tests.LineageOSTestApplication;
+import org.lineageos.tests.KrakenTestApplication;
 import org.lineageos.tests.versioning.unit.apiv2.ApiV2PriorReleaseInterfaces;
 import org.lineageos.tests.versioning.unit.apiv4.ApiV4PriorReleaseInterfaces;
 import org.lineageos.tests.versioning.unit.apiv5.ApiV5PriorReleaseInterfaces;
@@ -91,8 +91,8 @@ public class BinderTransactionTest extends AndroidTestCase {
 
     private static void doSetup() {
         mKnownSdkClasses = MagicalDexHelper.getLoadedClasses(
-                LineageOSTestApplication.getStaticApplicationContext(), LINEAGEOS_NAMESPACE);
-        sContext = LineageOSTestApplication.getStaticApplicationContext();
+                KrakenTestApplication.getStaticApplicationContext(), LINEAGEOS_NAMESPACE);
+        sContext = KrakenTestApplication.getStaticApplicationContext();
         addInterfaces(ApiV2PriorReleaseInterfaces.getInterfaces());
         addInterfaces(ApiV4PriorReleaseInterfaces.getInterfaces());
         addInterfaces(ApiV5PriorReleaseInterfaces.getInterfaces());
@@ -121,7 +121,7 @@ public class BinderTransactionTest extends AndroidTestCase {
         for (String sClazz : mKnownSdkClasses) {
             if (sClazz.endsWith(STUB_SUFFIX)) {
                 try {
-                    Class clazz = MagicalDexHelper.loadClassForNameSpace(LineageOSTestApplication
+                    Class clazz = MagicalDexHelper.loadClassForNameSpace(KrakenTestApplication
                             .getStaticApplicationContext(), sClazz);
                     Field[] fields = clazz.getDeclaredFields();
                     Pattern pattern = Pattern.compile("\\.([\\w]+)\\$");
