@@ -17,7 +17,7 @@
 android_test {
     name: "LineageSettingsProviderTests",
 
-    instrumentation_for: "LineageSettingsProvider",
+    instrumentation_for: "CustomSettingsProvider",
 
     srcs: ["**/*.java"],
 
