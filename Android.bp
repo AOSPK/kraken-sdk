@@ -18,7 +18,7 @@ android_app {
     name: "org.lineageos.platform-res",
     certificate: "platform",
     sdk_version: "core_platform",
-    manifest: "lineage/res/AndroidManifest.xml",
+    manifest: "kraken/res/AndroidManifest.xml",
 
     aaptflags: [
         "--auto-add-overlay",
@@ -37,7 +37,7 @@ android_app {
     ],
 
     resource_dirs: [
-        "lineage/res/res",
+        "kraken/res/res",
         "sdk/res/res",
     ],
 
@@ -51,7 +51,7 @@ android_app {
 
 lineage_sdk_src = "sdk/src/java/lineageos"
 lineage_sdk_internal_src = "sdk/src/java/org/lineageos/internal"
-library_src = "lineage/lib/main/java"
+library_src = "kraken/lib/main/java"
 
 lineage_sdk_LOCAL_STATIC_ANDROID_LIBRARIES = [
     "androidx.preference_preference",
