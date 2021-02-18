@@ -32,7 +32,7 @@ public class LineageUpdatesPreference extends SelfRemovingPreference
 
     private static final String TAG = "LineageUpdatesPreference";
 
-    private static final String UPDATER_PACKAGE_NAME = "org.lineageos.updater";
+    private static final String UPDATER_PACKAGE_NAME = "org.kraken.updater";
     private static final String UPDATER_ACTIVITY_CLASS =
             UPDATER_PACKAGE_NAME + ".UpdatesActivity";
 
