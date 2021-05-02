@@ -2123,6 +2123,15 @@ public final class LineageSettings {
                 sBooleanValidator;
 
         /**
+         * Screen off fod
+         * @hide
+         */
+        public static final String FOD_GESTURE = "fod_gesture";
+
+        /** @hide */
+        public static final Validator FOD_GESTURE_VALIDATOR = sBooleanValidator;
+
+        /**
          * Whether to take partial screenshot with volume down + power click.
          */
         public static final String CLICK_PARTIAL_SCREENSHOT = "click_partial_screenshot";
@@ -2413,6 +2422,7 @@ public final class LineageSettings {
                     FORCE_SHOW_NAVBAR_VALIDATOR);
             VALIDATORS.put(CLICK_PARTIAL_SCREENSHOT,
                     CLICK_PARTIAL_SCREENSHOT_VALIDATOR);
+            VALIDATORS.put(FOD_GESTURE, FOD_GESTURE_VALIDATOR);
             VALIDATORS.put(__MAGICAL_TEST_PASSING_ENABLER,
                     __MAGICAL_TEST_PASSING_ENABLER_VALIDATOR);
         };
