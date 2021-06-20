@@ -118,15 +118,15 @@
 
     <!-- Trusted accents package names -->
     <string-array name="trusted_accent_packages" translatable="false">
-        <item>org.lineageos.overlay.accent.red</item>
-        <item>org.lineageos.overlay.accent.pink</item>
-        <item>org.lineageos.overlay.accent.purple</item>
-        <item>org.lineageos.overlay.accent.blue</item>
-        <item>org.lineageos.overlay.accent.cyan</item>
-        <item>org.lineageos.overlay.accent.green</item>
-        <item>org.lineageos.overlay.accent.orange</item>
-        <item>org.lineageos.overlay.accent.yellow</item>
-        <item>org.lineageos.overlay.accent.brown</item>
-        <item>org.lineageos.overlay.accent.black</item>
+        <item>org.kraken.overlay.accent.red</item>
+        <item>org.kraken.overlay.accent.pink</item>
+        <item>org.kraken.overlay.accent.purple</item>
+        <item>org.kraken.overlay.accent.blue</item>
+        <item>org.kraken.overlay.accent.cyan</item>
+        <item>org.kraken.overlay.accent.green</item>
+        <item>org.kraken.overlay.accent.orange</item>
+        <item>org.kraken.overlay.accent.yellow</item>
+        <item>org.kraken.overlay.accent.brown</item>
+        <item>org.kraken.overlay.accent.black</item>
     </string-array>
 </resources>
